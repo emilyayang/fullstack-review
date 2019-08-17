@@ -23,15 +23,5 @@ let save = (dataArr) => {
     .catch((err) => console.log(err))
 }
 
-// let getRepos = () => {
-//   Repo.find()
-//     // .sort({ 'date': -1 })
-//     .limit(25)
-//     .exec(function (err, data) {
-//       console.log('getRepos', data)
-//     })
-// }
-
-
 module.exports = save;
 module.exports = Repo;
